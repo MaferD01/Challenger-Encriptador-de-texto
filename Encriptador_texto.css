@@ -1,0 +1,147 @@
+* { 
+    background: #ffefd5;
+    font-family:"inter" sans-serif;;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+header {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+main {
+    display: flex;
+    width: 1200px;
+    height: 649px;
+    margin: 0 80px;
+}
+.seccion1 {
+    width: 60%;
+    height: 100%;
+}
+
+.textareaMensaje {
+    margin-left: 20%;
+    border: none;
+    outline: none;
+    Width: 75%;
+    Height: 288px;
+    margin-Top: 150px;
+}
+.divAlerta {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 45px;
+    Width: 75%;    
+}
+
+.pAlerta1 { 
+    margin-left: 1%;
+    font-size: 15px;
+}
+
+.divButton { 
+    display: flex;
+    margin-left: 20%;
+    margin-top: 15px;
+    background: #ffefd5;
+    Width: 75%;   
+}
+
+.btnEncriptar {
+    border-color: #5f9ea0;
+    background: #5f9ea0;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 5px;  
+    height: 67px;
+    width: 320px;
+    left: 0px;
+    top: 0px;      
+}
+
+.btnDesencriptar {
+    border-color: #5f9ea0;
+    background: #5f9ea0;
+    border-radius: 24px;
+    padding: 24px;
+    margin: 5px;
+    height: 67px;
+    width: 320px;
+    left: 0px;
+    top: 0px;    
+}
+
+.seccion2 {
+    background-color: white;
+    width: 40%;
+    height: 90%;
+    margin-top: 30px;
+    
+    border-radius: 24px;
+}
+
+
+#imgHombre {
+    margin-top: 70px;
+    margin-left: 15%;
+    background-color: white;
+}
+
+#pAlerta2 {
+    margin-top: 10px;
+    margin-left: 15%;
+    text-align: center;
+    width: 336px;
+    background-color: white;
+    font-weight: bolder;
+}
+
+#pAlerta3 {
+    margin-top: 10px;
+    margin-left: 15%;
+    text-align: center;
+    width: 336px;
+    background-color: white
+}
+
+#textareaTranscripcion {
+    Width: 336px;
+    height: 462px;
+    margin-left: 15%;
+    margin-top: 23px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    visibility: hidden;    
+}
+
+.divCopiar {
+    background: #ffffff;
+    margin-top: 11px;
+    height: 77px;
+    border-bottom-right-radius: 24px ;
+    border-bottom-left-radius: 24px;
+    margin-left: 27px;
+    width: 450px;    
+}
+
+#btnCopiar {
+    margin-left: 45px;
+    margin-top: 0px;
+    border-color: #5f9ea0;
+    background: #ffffff;
+    height: 70px;
+    width: 336px;
+    border-radius: 24px;
+    padding: 24px;
+    visibility: hidden;    
+}
+
+
+
+
+

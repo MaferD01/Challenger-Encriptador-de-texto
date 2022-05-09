@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Encriptador de textos</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Encriptador_texto.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src ="imagenes/logo.svg">
+        </header>
+        <main>
+            <section class="seccion1"> 
+                <textarea type="text" cols="60" rows="6" class="textareaMensaje" placeholder="Ingrese el texto aqui"></textarea>
+
+                <div class="divAlerta">
+                <img src="imagenes/alerta.svg">
+                <p class="pAlerta1">Solo letras minúsculas y sin acentos</p> 
+                </div>
+
+                <div class="divButton">
+                <button class="btnEncriptar">Encriptar</button>  
+                <button class="btnDesencriptar">Desencriptar</button> 
+                </div>               
+            </section>
+
+            <section class="seccion2">
+                
+                <img id="imgHombre" src="imagenes/hombre.svg">
+                <p id="pAlerta2">Ningún mensaje fue encontrado</p>
+                <p id="pAlerta3">Ingrese el texto que desee encriptar o desencriptar</p>
+                <textarea type="text" cols="18" rows="17" id="textareaTranscripcion"></textarea>   
+                <div class="divCopiar">
+                    <button id="btnCopiar">copiar</button>
+                </div>
+                
+            </section>                  
+        </main>
+        <script src="script.js"></script>       
+    </body>
+</html>
